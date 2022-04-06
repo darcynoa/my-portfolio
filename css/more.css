@@ -1,0 +1,35 @@
+body {
+  background-color: #d3d3d3;
+}
+
+.intro img {
+  object-fit: cover;
+  transform: translateX(1rem) scale(1.5);
+  object-position: 40%;
+  transition: all 0.3s ease-out;
+}
+
+.intro__paragraph {
+  line-height: 1.6;
+}
+.unit-80 > h1 > span {
+  padding-inline: 2px;
+}
+
+@media screen and (max-width: 450px) {
+  .intro h1 span {
+    font-size: 2.5rem;
+  }
+
+  .intro h1:before {
+    font-size: 80px;
+    position: absolute;
+    transform: translate(50%, 140%) rotate(90deg) !important;
+    overflow-y: hidden;
+    width: max-content;
+  }
+
+  .intro img {
+    transform: scale(2) translate(20%, -20%);
+  }
+}
