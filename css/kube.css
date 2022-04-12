@@ -1957,7 +1957,6 @@ input[type="submit"].btn-red.btn[disabled]:hover {
 input[type="submit"].btn-red.btn-outline {
   background: none;
   border-color: #de2c3b;
-  color: #de2c3b;
 }
 .btn-red.btn-outline:hover,
 input[type="submit"].btn-red.btn-outline:hover {
