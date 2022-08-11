@@ -142,7 +142,9 @@ a:hover {
   font-size: 47px;
 }
 
-a.btn-secondary {
+a.btn-primary {
+  border: 1px solid #333333;
+
   background-color: #333333;
   color: #fff;
   font-family: "Lato", sans-serif;
@@ -153,9 +155,31 @@ a.btn-secondary {
   transition: all 0.3s ease-out;
 }
 
-a.btn-secondary:hover {
+a.btn-primary:hover {
+  border: 1px solid #333333;
+
   background-color: #333333;
   color: #fff;
+  box-shadow: 0px 3px 10px rgba(50, 50, 50, 0.5);
+  transform: translate(0px -100px);
+}  
+
+a.btn-secondary {
+  border: 1px solid #333333;
+  background-color: #fff;
+  color: #333333;
+  font-family: "Lato", sans-serif;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+a.btn-secondary:hover {
+  border: 1px solid #333333;
+  background-color: #fff;
+  color: #333333;
   box-shadow: 0px 3px 10px rgba(50, 50, 50, 0.5);
   transform: translate(0px -100px);
 }
