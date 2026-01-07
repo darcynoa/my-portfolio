@@ -172,6 +172,26 @@ a.btn-primary:hover {
   list-style: none;
   font-size: 0.9375em;
   color: #8c8c8c;
+  line-height: 1.5;
+}
+@media screen and (min-width: 1024px) {
+  .work .work-list li:last-child {
+    width: 80%;
+  }
+}
+
+.work .work-list img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .work .work-list img {
+    aspect-ratio: 9 / 16;
+  }
 }
 
 .work .work-list li a {
