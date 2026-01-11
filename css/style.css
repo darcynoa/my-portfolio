@@ -102,14 +102,18 @@ a:hover {
   overflow-x: hidden;
 }
 
+@media screen and (min-width: 1024px) {
+  .intro h1 {
+    padding-left: 1.5rem;
+  }
+}
+
 .intro img {
   width: 81px;
-  height: 81px;
-  border-radius: 99px;
+  height: auto;
+
   -o-object-fit: cover;
   object-fit: cover;
-  -webkit-transform: scale(2);
-  transform: scale(2);
 }
 
 .intro .wrap {

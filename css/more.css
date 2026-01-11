@@ -9,6 +9,7 @@ body {
 .intro img {
   object-fit: cover;
   transform: translateX(1rem) scale(1.5);
+  transform-origin: bottom center;
   object-position: 40%;
   transition: all 0.3s ease-out;
 }
